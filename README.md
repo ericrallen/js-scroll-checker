@@ -6,6 +6,10 @@ A simple JS scroll-checker that allows for user-defined scroll_stop and scroll_s
 Use
 ===
 
+JSFiddle: http://jsfiddle.net/allenericr/nF5gx/
+
+Just define the `scroll_check.on_start()` and `scroll_check.on_end()` methods and run the `scroll_check.check_scroll()` method when scrolling the window.
+
 		//public method added for callback from scroll start
 		scroll_check.on_start = function() {
 			//console.log('scroll started');
@@ -32,5 +36,3 @@ StackOverflow: http://stackoverflow.com/questions/3515446/jquery-mousewheel-dete
 It uses an implementation of the Revealing Module Pattern described at the link below (listed under Revealing Module Pattern (Public & Private)).
 		
 http://enterprisejquery.com/2010/10/how-good-c-habits-can-encourage-bad-javascript-habits-part-1/
-
-JSFiddle: http://jsfiddle.net/allenericr/nF5gx/
